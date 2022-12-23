@@ -47,3 +47,4 @@ types-PyYAML==5.4.6
 types-requests==2.25.1
 types-toml==0.1.5
 types-ujson==0.1.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
