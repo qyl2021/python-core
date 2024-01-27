@@ -1572,3 +1572,4 @@ zigpy==0.43.0
 
 # homeassistant.components.zwave_js
 zwave-js-server-python==0.34.0
+cryptography>=42.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
