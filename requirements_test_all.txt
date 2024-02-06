@@ -707,7 +707,7 @@ numato-gpio==0.10.0
 # homeassistant.components.opencv
 # homeassistant.components.tensorflow
 # homeassistant.components.trend
-numpy==1.21.4
+numpy==1.22.2
 
 # homeassistant.components.google
 oauth2client==4.1.3
@@ -771,7 +771,7 @@ pilight==0.1.1
 # homeassistant.components.seven_segments
 # homeassistant.components.sighthound
 # homeassistant.components.tensorflow
-pillow==9.0.1
+pillow==10.2.0
 
 # homeassistant.components.plex
 plexapi==4.9.2
@@ -1572,3 +1572,7 @@ zigpy==0.43.0
 
 # homeassistant.components.zwave_js
 zwave-js-server-python==0.34.0
+aiohttp>=3.9.2 # not directly required, pinned by Snyk to avoid a vulnerability
+mechanicalsoup>=1.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+ujson>=5.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
