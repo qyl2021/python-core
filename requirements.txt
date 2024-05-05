@@ -1,7 +1,7 @@
 -c homeassistant/package_constraints.txt
 
 # Home Assistant Core
-aiohttp==3.8.1
+aiohttp==3.9.4
 astral==2.2
 async_timeout==4.0.2
 attrs==21.2.0
@@ -14,7 +14,7 @@ httpx==0.21.3
 ifaddr==0.1.7
 jinja2==3.0.3
 PyJWT==2.1.0
-cryptography==35.0.0
+cryptography==42.0.6
 pip>=8.0.3,<20.3
 python-slugify==4.0.1
 pyyaml==6.0
